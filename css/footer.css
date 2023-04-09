@@ -1,0 +1,11 @@
+.footer__contenido {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    color: #464646;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 1.187rem;
+}
