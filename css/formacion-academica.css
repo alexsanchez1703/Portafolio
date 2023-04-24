@@ -27,10 +27,12 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    width: 100%;
 }
 .contenido__lista__img {
-    width: 5rem;
-    padding: 7rem;
+    width: 50%;
+    height: 6rem;
+    padding: 3.5rem;
     background-color: #fff;
 }
 .contenido__lista__span {
@@ -41,21 +43,26 @@
 .contenido__lista__span p {
     font-size: 0.875rem;
     font-weight: 500;
+    margin-top: 0.5rem;
 }
 @media screen and (min-width:768px){
     .formacion-academica__contenido__listas {
         flex-direction: row;
     }
-    .formacion-academica__contenido__lista{
-        width: 100%;;
-    }
-    .contenido__lista__img {
-        width: 8rem;
-        height: 6rem;
-        padding: 3rem;
-    }
     .contenido__lista__span {
         text-align: start;
     }
+}
 
+@media screen and (min-width:1366px){
+    .main__formacion-academica{
+        padding: 2rem 9.5rem;
+    }
+    .formacion-academica__titulo{
+        font-size: 2rem;
+    }
+    .contenido__lista__img {
+        width: 70%;
+        height: 10rem;
+    }
 }

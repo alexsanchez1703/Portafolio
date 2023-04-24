@@ -23,6 +23,16 @@
             <div class="encabezado__titulos__principal">
                 <h2 class="encabezado_titulos__nombre">Jorge Sánchez</h2>
             </div>
+            <nav class="encabezado__menu">
+                <ul class="encabezado__menu__lista">
+                  <li><a href="#sobre-mi" class="menu__link">Sobre mi</a></li>
+                  <li><a href="#skills" class="menu__link">Skills</a></li>
+                  <li><a href="#hobbies" class="menu__link">Hobbies</a></li>
+                  <li><a href="#formacion" class="menu__link">Formacion</a></li>
+                  <li><a href="#proyectos" class="menu__link">Proyectos</a></li>
+                </ul>
+              </nav>
+              
             <a class="encabezado_titulos__email" href="mailto:jorge.sanchezrome@hotmail.com">jorge.sanchezrome@hotmail.com</a>
         </div>
         <div class="encabezado__descripcion">
@@ -41,12 +51,12 @@
         </div>
     </header>
     <main class="main">
-        <section class="main__sobre-mi">
+        <section class="main__sobre-mi" id="sobre-mi">
             <h2 class="main__sobre-mi__titulo">Sobre mi</h2>
-            <p class="main__sobre-mi__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minima recusandae totam porro enim provident dolores voluptates eveniet officia ut neque molestiae placeat minus ex quasi ipsum voluptatem quis nulla iste, impedit dolore eaque vitae doloremque possimus? Quia nemo, rem similique accusamus molestias magnam quas earum at quisquam molestiae cum totam minus culpa sed ad repudiandae exercitationem facilis nisi dolore quod, error libero tenetur magni. Sed dolorem, doloribus non aut a nostrum eveniet praesentium, expedita consequuntur nulla, incidunt tempore perspiciatis. Harum ipsa mollitia totam praesentium saepe sequi! Eligendi, a porro corporis optio, itaque quae nobis debitis, quidem eius harum necessitatibus.</p>
+            <p class="main__sobre-mi__parrafo">Soy un estudiante egresado de la carrera  Ingenieria en Networking y Telecomunicaciones de la Universidad de Guayaquil. Actualmente me encuentro estudiando programación en desarrollo Front-End en One-Alura Latam. Me gusta mucho la tecologia, aprender cada dia más, ser responsable, dedicado, trabajar en equipo y ayudar a la resolucion de cualquier porblema.</p>
             <div class="main__sobre-mi__img"></div>
         </section>
-        <section class="main__skills">
+        <section class="main__skills" id="skills">
             <h2 class="main__skills__titulo">Skills</h2>
             <div class="main__skills__container">
                 <ul class="main__skills__lista">
@@ -54,68 +64,62 @@
                         <img class="lista__descripcion__img"  src="img/html.svg" alt="logo de html"><span class="lista__descripcion__span">Html 5</span></li>
                     <li class="lista__descripcion">
                         <img class="lista__descripcion__img"  src="img/javascript.svg" alt="logo de Javascrip"><span class="lista__descripcion__span">Javascript</span></li>
-                </ul>
-                <ul class="main__skills__lista">        
                     <li class="lista__descripcion">
-                        <img class="lista__descripcion__img" src="img/php.svg" alt=""><span class="lista__descripcion__span">PHP</span></li>
+                            <img class="lista__descripcion__img" src="img/php.svg" alt=""><span class="lista__descripcion__span">PHP</span></li>
                     <li class="lista__descripcion">
-                        <img class="lista__descripcion__img"  src="img/node js.svg" alt=""><span class="lista__descripcion__span">Node JS</span></li>
-                </ul>
-                <ul class="main__skills__lista">
-                    <li class="lista__descripcion">
-                        <img class="lista__descripcion__img"  src="img/react.svg" alt=""><span class="lista__descripcion__span">React</span></li>
-                    <li class="lista__descripcion">
-                        <img class="lista__descripcion__img"  src="img/css.svg" alt=""><span class="lista__descripcion__span">CSS<span></li>
+                            <img class="lista__descripcion__img"  src="img/node js.svg" alt=""><span class="lista__descripcion__span">Node JS</span></li>
+                            <li class="lista__descripcion">
+                                <img class="lista__descripcion__img"  src="img/react.svg" alt=""><span class="lista__descripcion__span">React</span></li>
+                            <li class="lista__descripcion">
+                                <img class="lista__descripcion__img"  src="img/css.svg" alt=""><span class="lista__descripcion__span">CSS<span></li>
                 </ul>
             </div>
             
 
         </section>
-        <section class="main__hobbies">
+        <section class="main__hobbies" id="hobbies">
             <h2 class="main__hobbies__titulo">Hobbies</h2>
             <div class="main__hobbies__container">
                 <ul class="main__hobbies__lista">
                     <li class="hobbies__lista"><img class="hobbies__lista__img" src="img/patinaje.svg" alt=""><span class="hobbies__lista__span">Patinaje</span></li>
                     <li class="hobbies__lista"><img class="hobbies__lista__img" src="img/tocar bajo.svg" alt=""><span class="hobbies__lista__span">Tocar la guitarra</span></li>
-                </ul>
-                <ul class="main__hobbies__lista">
                     <li class="hobbies__lista"><img class="hobbies__lista__img" src="img/musica.svg" alt=""><span class="hobbies__lista__span">Escuchar musica</span></li>
                     <li class="hobbies__lista"><img class="hobbies__lista__img" src="img/ver series.svg" alt=""><span class="hobbies__lista__span">Ver series</span></li>
-                </ul>
-                <ul class="main__hobbies__lista">
                     <li class="hobbies__lista"><img class="hobbies__lista__img" src="img/restaurante.svg" alt=""><span class="hobbies__lista__span">Cocinar</span></li>
                     <li class="hobbies__lista"><img class="hobbies__lista__img" src="img/tomar fotos.svg" alt=""><span class="hobbies__lista__span">Tomar fotos</span></li>
                 </ul>
             </div>
         </section> 
-        <section class="main__formacion-academica">
+        <section class="main__formacion-academica" id="formacion">
             <h2 class="formacion-academica__titulo">Formación Academica</h2>
             <div class="formacion-academica__contenido">
                 <ul class= "formacion-academica__contenido__listas">
-                    <li class="formacion-academica__contenido__lista"><img class="contenido__lista__img" src="img/remigio.jpg" alt="Logo Colegio Remigio"><span class="contenido__lista__span">Bachiller en Ciencias<p>2015 - CB Remigio Geo Gomez Guerrero</p></span></li>
+                    <li class="formacion-academica__contenido__lista"><img class="contenido__lista__img" src="img/remigio.png" alt="Logo Colegio Remigio"><span class="contenido__lista__span">Bachiller en Ciencias<p>2015 - CB Remigio Geo Gomez Guerrero</p></span></li>
                     <li class="formacion-academica__contenido__lista"><img class="contenido__lista__img" src="img/universidad de guayaquil.png" alt="Logo UG"><span class="contenido__lista__span">Ingeniero en Networking y Telecomunicaciones<p>2023 - Universidad de Guayaquil</p></span></li>
                     <li class="formacion-academica__contenido__lista"><img class="contenido__lista__img" src="img/alura.png" alt="Logo Alura"><span class="contenido__lista__span">Desarrollador Web Front-End<p>2023 - Alura</p></span></li>
                 </ul>
             </div>
         </section>
-        <section class="main__expereincia-laboral">
+        <section class="main__expereincia-laboral" id="proyectos">
             <h2 class="experiencia-laboral__titulo">Experiencia Laboral</h2>
             <div class="experiencia-laboral__contenido">
                 <ul class="experiencia-laboral__listas">
                     <li class="experiencia-laboral__lista">
                         <img class="experiencia-laboral__lista__img" src="img/encriptador_alura.png" alt="encriptador-alura">
-                        <h3 class="experiencia-laboral__lista__titulo">Encriptador de texto</h3>
+                        
                         <div class="experiencia-laboral__lista__botones">
+                            <h3 class="experiencia-laboral__lista__titulo">Encriptador de texto</h3>
                             <span class="lista__botones__cont">
                                 <a class="botones__cont__ref" href="https://github.com/alexsanchez1703/Desafio-Encriptador-Desencriptador"><button class="cont__ref__boton1">Repositorio</button></a>
                                 <a class="botones__cont__ref" href="https://alexsanchez1703.github.io/Desafio-Encriptador-Desencriptador/"><button class="cont__ref__boton2">Ver Demo</button></a>   
                             </span>
                         </div>
                     </li>
-                    <li class="experiencia-laboral__lista">
+                    <li class="experiencia-laboral__lista" id="experiencia-laboral__lista-alterna">
                         <img class="experiencia-laboral__lista__img" src="img/gym_atreus.png" alt="Gimnasio Astrus">
-                        <h3 class="experiencia-laboral__lista__titulo">Web Gimnasio Atreus</h3>
+                        
                         <div class="experiencia-laboral__lista__botones">
+                            <h3 class="experiencia-laboral__lista__titulo">Web Gimnasio Atreus</h3>
                             <span class="lista__botones__cont">
                                 <a  class="botones__cont__ref"class="botones__cont__ref" href="https://github.com/alexsanchez1703/web-gimnasio.git"><button class="cont__ref__boton1">Repositorio</button></a>
                                 <a class="botones__cont__ref" href="https://alexsanchez1703.github.io/web-gimnasio/"><button class="cont__ref__boton2">Ver Demo</button></a>
@@ -124,8 +128,9 @@
                     </li>
                     <li class="experiencia-laboral__lista">
                         <img class="experiencia-laboral__lista__img" src="img/layouns_web.png" alt="Layouns Web">
-                        <h3 class="experiencia-laboral__lista__titulo">Layouns web</h3>
+                        
                         <div class="experiencia-laboral__lista__botones">
+                            <h3 class="experiencia-laboral__lista__titulo">Layouns web</h3>
                             <span class="lista__botones__cont">
                                 <a class="botones__cont__ref" href="https://github.com/alexsanchez1703/layouns-web"><button class="cont__ref__boton1">Repositorio</button></a>
                                 <a class="botones__cont__ref" href="https://alexsanchez1703.github.io/layouns-web/"><button class="cont__ref__boton2"class="cont__ref__boton2">Ver Demo</button></a>
@@ -140,10 +145,26 @@
                 <h2 class="main__contacto__titulo">Contacto</h2>
                 <h3 class="main__contacto__subtitulo1">¿Quieres contactarme?<h4>Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</h4></h3>
                 <form class="main__contacto__form" name="form">
-                    <input type="text" name="nombre" placeholder="Nombre">
-                    <input type="email" name="email" placeholder="E-mail">
-                    <input type="text" name="asunto" placeholder="Asunto">
-                    <textarea name="mensaje" id="mensajem" cols="40" rows="5" placeholder="Mensaje"></textarea>
+                    <div class="container__input">
+                        <input type="text" name="name" placeholder="Nombre" required data-tipo="nombre" minlength="4" maxlength="50" size="10">
+                        <label class="input-label" for="name">Nombre</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="container__input">
+                        <input type="email" name="email" placeholder="E-mail" required data-tipo="email">
+                        <label class="input-label" for="email">Email</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="container__input">
+                        <input type="text" name="asunto" placeholder="Asunto" required data-tipo="asunto" minlength="4" maxlength="8" size="10">
+                        <label class="input-label" for="asunto">Asunto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="container__input">
+                        <textarea name="mensaje" id="mensajem" cols="40" rows="5" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                        <label class="input-label" for="mensaje">Mensaje</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
                     <button type="submit">Enviar mensaje</button>
                 </form>
             </div>
@@ -154,7 +175,7 @@
             <p>Desarrollado por Jorge Sanchez</p>
             <p>2023</p>
         </div>
- 
     </footer>
+    <script type="module" src="app.js"></script>
 </body>
 </html>

@@ -14,16 +14,10 @@
     font-family: Raleway;
 }
 
-.main__skills__container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
 .main__skills__lista {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -51,3 +45,22 @@
     font-family: Raleway;
 }
 
+@media screen and (min-width:768px){ 
+    .lista__descripcion {
+        width: 30%;
+    }
+}
+@media screen and (min-width:1366px){
+    .lista__descripcion {
+        height: 10.875rem;
+    }
+    .main__skills{
+        padding: 2rem 9.5rem;
+    }
+    .main__skills__titulo.main__skills__titulo{
+        font-size: 2rem;
+    }
+    .main__skills__lista{
+        flex-wrap: nowrap;
+    }
+}

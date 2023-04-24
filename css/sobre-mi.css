@@ -14,16 +14,36 @@
 }
 
 .main__sobre-mi__parrafo {
-    font-size: 0.875;
+    font-size: 0.875rem;
     font-family: Raleway;
     color: #464646;
     font-weight: 400;
 }
 
 .main__sobre-mi__img {
-    background-image: url(../img/firma.png);
+    background-image: url(../img/firma\ sin\ fondo.png);
     background-size: cover;
     box-sizing: border-box;
-    width: 8.75rem;
-    height: 3.25rem;
+    width: 4.75rem;
+    height: 7.25rem;
+}
+
+
+@media screen and (min-width:1366px){
+    .main__sobre-mi{
+        padding: 2rem 9.5rem;
+        
+    }  
+    .main__sobre-mi__titulo {
+        font-size: 2rem;
+        margin-top: 4rem; 
+    }   
+    .main__sobre-mi__parrafo {
+        font-size: 1rem;
+        line-height: 1.17375rem;
+        margin-right: 30rem;
+    }  
+    .main__sobre-mi__img{
+        margin-bottom: 4rem;
+    }
 }
